@@ -95,8 +95,6 @@ def store_token(token):
 
 
 def test_task(environ, start_response):
-    # oauth_verifier=147C06F04031FE509622A7A1354FFE5C
-    # https://sandbox.evernote.com/OAuth.action?oauth_token=ts-2012.16764416D57.68747470733A2F2F73616E64626F782E657665726E6F74652E636F6D2F4F417574682E616374696F6E.6ED4C156CA21C55EC6A53B928C56EB9C&oauth_verifier=2FB6AEB9819680C2D36D1E6A0037CB39&sandbox_lnb=false
     start_response("200 OK", [("Content-type", "text/html;charset=utf-8")])
     try:
         client = EvernoteClient(
