@@ -25,4 +25,6 @@ Run **MakeJson.py** with **consumer_key**, **consumer_secret**, **notebook_name*
   
 Run the server with 'python -m **empj.makecontents.Server.py**' or **Server_MakeContents.bat**  
 
-Add a tag named 'MakeContents' to target notes in the notebooks
+Add a tag named 'MakeContents' to target notes in the notebooks  
+
+Access http://localhost:8080 
