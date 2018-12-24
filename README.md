@@ -1,7 +1,7 @@
 Description
 ===========
-This is a Web App to make a table of contents in Evernote's notes.
-Bold strings that are presented as the contents will be collected and displayed in the top of their note.  
+This is a Web App to make a table of contents in Evernote's notes.  
+Bold strings that are presented in a note will be collected and displayed in the top of the note.  
 
 ex.  
 
