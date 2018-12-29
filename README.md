@@ -3,23 +3,22 @@ Description
 This is a Web App to make a table of contents in each Evernote's note.  
 Bold strings that are presented in a note will be collected and displayed in the top of the note.  
 
-ex.  
+<details>  
+    <summary>ex.</summary>
+        <strong>CONTENTS</strong><br>  
+        <strong>Section 1</strong><br>  
+        <strong>Section 2</strong><br> 
+        <div><hr/></div>
+        <strong>Section 1</strong><br>
+    <ul><li><div>List1</div></li></ul><br>
+        <ul><li><div>List2</div></li></ul><br>
+        <ul><li><div>List3</div></li></ul><br>
+        <strong>Section 2</strong><br>
+        <ul><li><div>List1</div></li></ul><br>
+        <ul><li><div>List2</div></li></ul><br>
+        <ul><li><div>List3</div></li></ul><br>
+</details>      
 
-**CONTENTS**  
-**Section 1**  
-**Section 2** 
-
----
-**Section 1**  
-* List1
-* List2
-* List3  
-    
-**Section 2**  
-* List1
-* List2
-* List3
-    
 How to use
 ==========
 Run **MakeJson.py** with your **consumer_key**, **consumer_secret** and **notebook_name**.  
