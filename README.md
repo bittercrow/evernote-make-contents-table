@@ -21,7 +21,7 @@ Bold strings that are presented in a note will be collected and displayed in the
 
 How to use
 ==========
-Run **MakeJson.py** with your **consumer_key**, **consumer_secret** and **notebook_name**.  
+Initially, run **MakeJson.py** with your **consumer_key**, **consumer_secret** and **notebook_name**.  
   
 Run the server by  
 ```DIGITAL Command Language
