@@ -21,9 +21,13 @@ ex.
     
 How to use
 --------
-Run **MakeJson.py** with **consumer_key**, **consumer_secret**, **notebook_name**.  
+Run **MakeJson.py** with your **consumer_key**, **consumer_secret** and **notebook_name**.  
   
-Run the server with 'python -m **empj.makecontents.Server.py**' or **Server_MakeContents.bat**  
+Run the server by  
+```DIGITAL Command Language
+python -m empj.makecontents.Server.py
+```    
+or **Server_MakeContents.bat**  
 
 Add a tag named 'MakeContents' to target notes in the notebooks  
 
