@@ -27,7 +27,7 @@ Run the server by
 ```DIGITAL Command Language
 python -m empj.makecontents.Server.py
 ```    
-or **Server_MakeContents.bat**  
+or **Server_MakeContents.bat**  (Windows only)
 
 Add a tag named 'MakeContents' to target notes in the notebooks  
 
